@@ -1,0 +1,90 @@
+{
+    "Cholez Gozo": {
+        "name": "Cholez Gozo",
+        "contact": "09293892934",
+        "services": [
+            {
+                "name": "Chimmy",
+                "description": "yummy ice cream",
+                "price": 80.0
+            }
+        ]
+    },
+    "Alex Commission": {
+        "name": "Alex Commission",
+        "contact": "alexandra@email.com",
+        "services": [
+            {
+                "name": "Research Writing",
+                "description": "NA",
+                "price": 200.0
+            }
+        ]
+    },
+    "Diandre": {
+        "name": "Diandre",
+        "contact": "25-00000@g.batstate-u.edu.ph",
+        "services": [
+            {
+                "name": "Video Editing",
+                "description": "Enhance videos for various platforms.",
+                "price": 350.0
+            }
+        ]
+    },
+    "DigitalX Designs": {
+        "name": "DigitalX Designs",
+        "contact": "contact@digitalxdesigns.com",
+        "services": [
+            {
+                "name": "Graphic Design",
+                "description": "Custom logo and brand designs for your business.",
+                "price": 150.0
+            }
+        ]
+    },
+    "WebWorks Studio": {
+        "name": "WebWorks Studio",
+        "contact": "webworks@studio.com",
+        "services": [
+            {
+                "name": "Web Design & Development",
+                "description": "Responsive and professional websites tailored to your business needs.",
+                "price": 1200.0
+            }
+        ]
+    },
+    "Appify Solutions": {
+        "name": "Appify Solutions",
+        "contact": "appify@solutions.com",
+        "services": [
+            {
+                "name": "Mobile App Development",
+                "description": "Developing user-friendly mobile applications for iOS and Android.",
+                "price": 3000.0
+            }
+        ]
+    },
+    "SEO Masters": {
+        "name": "SEO Masters",
+        "contact": "seomasters@seo.com",
+        "services": [
+            {
+                "name": "Search Engine Optimization",
+                "description": "Boost your website’s visibility and ranking on search engines.",
+                "price": 500.0
+            }
+        ]
+    },
+    "Pixel Motion Studios": {
+        "name": "Pixel Motion Studios",
+        "contact": "info@pixelmotionstudios.com",
+        "services": [
+            {
+                "name": "Animation & Motion Graphics",
+                "description": "Creating animated explainer videos and motion graphics for your brand.",
+                "price": 1000.0
+            }
+        ]
+    }
+}
