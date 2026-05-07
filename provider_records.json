@@ -71,7 +71,7 @@
         "services": [
             {
                 "name": "Search Engine Optimization",
-                "description": "Boost your website’s visibility and ranking on search engines.",
+                "description": "Boost your website\u00e2\u20ac\u2122s visibility and ranking on search engines.",
                 "price": 500.0
             }
         ]
@@ -84,6 +84,43 @@
                 "name": "Animation & Motion Graphics",
                 "description": "Creating animated explainer videos and motion graphics for your brand.",
                 "price": 1000.0
+            }
+        ]
+    },
+    "Gwy": {
+        "name": "Gwy",
+        "contact": "0999999999",
+        "services": [
+            {
+                "name": "Yakapsule",
+                "description": "Once a day",
+                "price": 150.0
+            }
+        ]
+    },
+    "AifaMart": {
+        "name": "AifaMart",
+        "contact": "p.aifamagracia@gmail.com",
+        "services": [
+            {
+                "name": "Netflix",
+                "description": "Shared",
+                "price": 100.0
+            },
+            {
+                "name": "Netflix",
+                "description": "Solo",
+                "price": 195.0
+            },
+            {
+                "name": "Capcut",
+                "description": "Shared",
+                "price": 25.0
+            },
+            {
+                "name": "Capcut",
+                "description": "Solo",
+                "price": 50.0
             }
         ]
     }

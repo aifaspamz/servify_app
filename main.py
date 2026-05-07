@@ -60,9 +60,9 @@ class PortfolioManagerApp:
 
         try:
             icon_img = Image.open("assets/logo.png")
-            icon_img = icon_img.resize((64, 64))  # Resize the image for the icon
+            icon_img = icon_img.resize((64, 64))
             icon_img = ImageTk.PhotoImage(icon_img)
-            self.title_window.iconphoto(True, icon_img)  # Set the icon for the window
+            self.title_window.iconphoto(True, icon_img)  
         except Exception as e:
             messagebox.showerror("Error", f"Icon loading error: {e}")
 
@@ -103,7 +103,8 @@ class PortfolioManagerApp:
             bg="#E3A0B1",
             fg="#FFFFFF",
             width=20,
-            height=2
+            height=2,
+            cursor="heart"
         )
         start_button.pack(pady=30)
 
@@ -127,7 +128,8 @@ class PortfolioManagerApp:
             padx=10,
             pady=10,
             relief=tk.RIDGE,
-            borderwidth=1
+            borderwidth=1,
+            cursor="heart"
         )
         self.button_frame.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 10))
 
@@ -199,7 +201,8 @@ class PortfolioManagerApp:
             bg="#E3A0B1",
             fg="#FFFFFF",
             command=self.search_provider_or_service,
-            width=10
+            width=10,
+            cursor="heart"
         )
         self.search_button.pack(side=tk.LEFT, padx=(10, 0))
 
@@ -540,11 +543,11 @@ class PortfolioManagerApp:
                 self.save_data()
 
         button_frame = tk.Frame(form_window, bg="#F5F5F5")
-        button_frame.pack(fill=tk.X, pady=10)
+        button_frame.pack(anchor=tk.CENTER, pady=10)
 
-        tk.Button(button_frame, text="Add Service", command=add_service, width=12, bg="#E3A0B1", fg="#FFFFFF").pack(side=tk.LEFT, padx=5)
-        tk.Button(button_frame, text="Edit Service", command=edit_service, width=12, bg="#6D204D", fg="#FFFFFF").pack(side=tk.LEFT, padx=5)
-        tk.Button(button_frame, text="Delete Service", command=delete_service, width=12, bg="#B33A5F", fg="#FFFFFF").pack(side=tk.LEFT, padx=5)
+        tk.Button(button_frame, text="Add Service", command=add_service, cursor="heart", width=12, bg="#E3A0B1", fg="#FFFFFF").pack(side=tk.LEFT, padx=5)
+        tk.Button(button_frame, text="Edit Service", command=edit_service, cursor="heart", width=12, bg="#6D204D", fg="#FFFFFF").pack(side=tk.LEFT, padx=5)
+        tk.Button(button_frame, text="Delete Service", command=delete_service, cursor="heart", width=12, bg="#B33A5F", fg="#FFFFFF").pack(side=tk.LEFT, padx=5)
 
         refresh_service_listbox()
 
